@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>login validation</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <div class="row">
+       <div class="div1">
+         <h4>Don't have fifosolutions.com account?</h4>
+							<p><a class="text-thm" href="">Cleck Here</a> to Register as fifosolutions Recruiter.</p>
+							<p><a class="text-thm" href="">Cleck Here</a> to Register as Job Seeker.</p>
+       </div>
+      </div>
+       <div class="container">
+         <h1 class="label">Employee login</h1>
+         <h2>Don't have an account?<a href="">Register Now</a></h2>
+         <form class="login_form" action="success.html" method="post" name="form" onsubmit="return validated()">
+          <div class="row100">
+
+          <div class="font">Email or phone</div>
+           <input autocomplete="off" type="email" name="em"  required="required" placeholder="Enter e-mail*" id="em">
+           <span  id="emailids" class="email_error" class="text-danger font-weight-bold"></span>
+
+         </div>
+          <div class="row100">
+
+           <div class="font font2">Password</div>
+           <input autocomplete="off" type="password" name="ps" required="required" placeholder="Enter password*" id="ps">
+           <span  id="password" class="pass_error" class="text-danger font-weight-bold"></span>
+
+          </div>
+          <div class="form-group form-check">
+								<a href="">Forgot Password?</a>
+					 </div>
+           <button type="submit" class="btn btn-log btn-block btn-thm">Login</button>
+
+         </form>
+        </div>
+      </div>
+        <script src="index.js" charset="utf-8"></script>
+
+
+  </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>login validation</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+       <div class="container">
+         <h1 class="label">User login</h1>
+         
+         <form class="login_form" action="success.html" method="post" name="form" onsubmit="return validated()">
+           <div class="font">Email or phone</div>
+           <input type="email" name="email">
+           <div id="email_error">Please fill up your email or phone</div>
+           <div class="font font2">Password</div>
+           <input type="password" name="password">
+           <div id="pass_error">Please fill up your password</div>
+           <button type="submit">Login</button>
+
+         </form>
+        </div>
+        <script src="index.js" charset="utf-8"></script>
+
+
+  </body>
+</html>

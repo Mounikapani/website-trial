@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact us form validation Using Javascript</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="scripts.js"></script>
+</head>
+<body>
+
+<div class="wrapper">
+  <h2>Employee Signup</h2>
+  <div id="error_message"></div>
+  <form id="myform" action="success.html" method="post" onsubmit="return validate()">
+    <div class="input_field">
+			  <label for="">First name</label>
+        <input type="text" placeholder="Enter First name" id="name">
+    </div>
+		<div class="input_field">
+			   <label for="">Last name</label>
+				<input type="text" placeholder="Enter Last name" id="lname">
+		</div>
+    <div class="input_field">
+			   <label for="">Phone number</label>
+        <input type="text" placeholder="Enter Phone number" id="phone">
+    </div>
+    <div class="input_field">
+			  <label for="">Email</label>
+        <input type="text" placeholder="Enter Email" id="email">
+    </div>
+		<div class="input_field">
+			  <label for="">Password</label>
+        <input type="text" placeholder="Enter Password" id="pass">
+    </div>
+		<div class="input_field">
+			  <label for="">Confirm password</label>
+        <input type="text" placeholder="Confirm password" id="cpass">
+    </div>
+
+    <div class="btn">
+        <input type="submit">
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
